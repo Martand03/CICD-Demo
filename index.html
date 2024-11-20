@@ -2,34 +2,60 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Sample Deployment</title>
+  <title>Welcome to Your New Application</title>
   <style>
     body {
       color: #ffffff;
-      background-color: #0188cc;
+      background-color: #4ade80; /* Green background as preferred */
       font-family: Arial, sans-serif;
       font-size: 14px;
+      margin: 0;
+      padding: 0;
     }
     
     h1 {
-      font-size: 500%;
-      font-weight: normal;
-      margin-bottom: 0;
+      font-size: 4rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
     }
     
     h2 {
-      font-size: 200%;
+      font-size: 2rem;
       font-weight: normal;
-      margin-bottom: 0;
+      margin-bottom: 1rem;
+    }
+    
+    p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    a {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: #f87171; /* Red hover color for contrast */
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100vh;
+      flex-direction: column;
+      padding: 0 1rem;
     }
   </style>
 </head>
 <body>
-  <div align="center">
-    <h1>Congratulations</h1>
-    <h2>This application was deployed using AWS CodeDeploy.</h2>
-    <p>For next steps, read the <a href="http://aws.amazon.com/documentation/codedeploy">AWS CodeDeploy Documentation</a>.</p>
+  <div class="container">
+    <h1>Welcome!</h1>
+    <h2>Your application is up and running!</h2>
+    <p>Explore the possibilities and customize it to your needs.</p>
+    <p>Explore more by visiting the <a href="https://martandportfolio-8202a.web.app/" target="_blank">Martand Portfolio</a>.</p>
   </div>
 </body>
 </html>
-
